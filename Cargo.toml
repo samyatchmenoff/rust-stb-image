@@ -1,0 +1,9 @@
+[package]
+name = "rust-stb-image"
+version = "0.0.1"
+authors = [ "Mozilla" ]
+build = "./configure && make"
+
+[[lib]]
+name = "stb_image"
+path = "lib.rs"
